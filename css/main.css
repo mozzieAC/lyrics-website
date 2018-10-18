@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-image: url("http://www.whothehelldoeshethinkheis.com/wp-content/uploads/2014/03/Homer-Simpsons-Music-Headphones-Anime.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+#lyrics-btn {
+    margin-top: 10px;
+}
+
+#lyrics-container{
+    width: 70%;
+    /* filter: opacity(.20); */
+}
+
